@@ -130,7 +130,7 @@ fun QRScannerScreen(text: String) {
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "QR SCANER",
+            text = "QR 스캐너",
             color = Color.White,
             fontWeight = FontWeight.Bold,
             fontSize = 20.sp
@@ -148,7 +148,7 @@ fun QRScannerScreen(text: String) {
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "Result",
+            text = "결과",
             color = Color.White,
             fontWeight = FontWeight.Bold,
             fontSize = 20.sp
@@ -191,7 +191,7 @@ fun QRScannerScreen(text: String) {
                 contentDescription = "Restart Icon",
                 modifier = Modifier.padding(end = 8.dp)
             )
-            Text(text = "restart", fontSize = 28.sp, color = Color.White, textDecoration = TextDecoration.Underline,)
+            Text(text = "다시 스캔", fontSize = 28.sp, color = Color.White, textDecoration = TextDecoration.Underline,)
         }
 
 
